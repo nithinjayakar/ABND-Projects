@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">PokeQuiz</string>
+    <string name="question1">what is the type of flygon?</string>
+    <string name="question1Option1">Dragon</string>
+    <string name="question1Option2">Grass</string>
+    <string name="question1Option3">Ground</string>
+    <string name="question1Option4">Flying</string>
+    <string name="question2">How many evolutions are there for Eevee?</string>
+    <string name="question2Option1">3</string>
+    <string name="question2Option2">6</string>
+    <string name="question2Option3">5</string>
+    <string name="question2Option4">8</string>
+    <string name="question3">Sentret evolves into?</string>
+    <string name="question3Option1">Whismur</string>
+    <string name="question3Option2">Linoone</string>
+    <string name="question3Option3">Furret</string>
+    <string name="question3Option4">Chimecho</string>
+    <string name="question4">Name it.</string>
+    <string name="question5">Banette evolves from?</string>
+    <string name="question5Option1">Dunsparce</string>
+    <string name="question5Option2">Sigilyph</string>
+    <string name="question5Option3">Shuppet</string>
+    <string name="question5Option4">Misdreavus</string>
+    <string name="question6">Guess?</string>
+    <string name="question6Option1">Litleo</string>
+    <string name="question6Option2">Yanma</string>
+    <string name="question6Option3">Purrloin</string>
+    <string name="question6Option4">Ledyba</string>
+    <string name="question7">Nincada evolves into?</string>
+    <string name="question7Option1">Stantler</string>
+    <string name="question7Option2">Shedinja</string>
+    <string name="question7Option3">Smeargle</string>
+    <string name="question7Option4">Ninjask</string>
+    <string name="finalScoreText">Click to get your Score!!!</string>
+    <string name="finalScore">0</string>
+    <string name="tryAgain">Try Again</string>
+</resources>

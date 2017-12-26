@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.rosemilk.MainActivity">
+
+    <ImageView
+        android:id="@+id/rosemilk_image_view"
+        android:src="@drawable/rosemilk"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:scaleType="centerCrop"
+        android:layout_below="@+id/textView"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ROSE MILK"
+        android:textColor="#d81b60"
+        android:textStyle="italic"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/textView"
+        android:layout_below="@+id/image_image_view"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rosemilk_image_view"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout">
+        <ImageView
+            android:id="@+id/location_image_view"
+            android:src="@drawable/location"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="4dp"
+            android:layout_weight="0"
+            android:layout_width="24dp"
+            android:layout_height="24dp" />
+
+        <TextView
+            android:id="@+id/location_text_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=" 1"
+            android:textColor="#263238"
+            android:text="location :  Mangalavaripeta, Rajahmundry,
+                   Andhra Pradesh ,533101."/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout2">
+        <ImageView
+            android:id="@+id/number_image_view"
+            android:src="@drawable/number"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="4dp"
+            android:layout_weight="0"
+            android:layout_width="24dp"
+            android:layout_height="24dp"/>
+        <TextView
+        android:id="@+id/number_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=" 1"
+        android:text=" cell         :  +91-9885088585."
+        android:textColor="#263238"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout3">
+        <ImageView
+            android:id="@+id/email_image_view"
+            android:src="@drawable/email"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="4dp"
+            android:layout_weight="0"
+            android:layout_width="24dp"
+            android:layout_height="24dp"/>
+        <TextView
+            android:id="@+id/email_text_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=" 1"
+            android:text=" email     :  RoseMilkCenter@gmail.com"
+            android:textColor="#263238"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout4">
+        <ImageView
+            android:id="@+id/houres_image_view"
+            android:src="@drawable/houres"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="4dp"
+            android:layout_weight="0"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            />
+
+        <TextView
+            android:id="@+id/houres_text_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=" 1"
+            android:text="houres   :  9.30 a.m. to 11.00 p.m."
+            android:textColor="#263238"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/description_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#263238"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="4dp"
+        android:text="description   :  Rosemilk is the word!!!often heard in Rajahmundry which resites here with fabulous taste."
+        android:layout_below="@+id/linearLayout4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/image_image_view"
+        android:src="@drawable/image"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_finalscore"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.pokequiz.question1">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/finalwallpaper"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="28sp"
+        android:text="@string/finalScoreText"/>
+    <TextView
+        android:id="@+id/score_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="58sp"
+        android:text="@string/finalScore"/>
+    <ImageView
+        android:layout_width ="wrap_content"
+        android:layout_height="36dp"
+        android:layout_gravity ="center_horizontal"
+
+        android:src="@drawable/pokeball"
+        android:onClick="submit"/>
+    <Button
+        android:id="@+id/tryAgain_buttonView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/tryAgain"
+        android:onClick="tryAgain"
+        />
+</LinearLayout>

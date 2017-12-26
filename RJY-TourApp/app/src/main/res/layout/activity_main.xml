@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.rjy_tourapp.MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rjy"
+        android:layout_gravity="center_horizontal"
+        android:textSize="56sp"/>
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/rjy"/>
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/restaurants_ButtonView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/restaurant"/>
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/park_ButtonView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/park"/>
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/temple_ButtonView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/temples"/>
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/rjyFamous_ButtonView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/famous"/>
+
+</LinearLayout>

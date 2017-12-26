@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:layout_gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.pokequiz.question1">
+    <LinearLayout
+        android:id="@+id/activity_question1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gorebyss"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="48dp"
+            android:layout_gravity="center"/>
+        <EditText
+            android:id="@+id/ans4_editView"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/question4"
+            android:background="#f8bbd0"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="48dp"
+            android:layout_marginBottom="98dp"/>
+        <ImageView
+            style="@style/pokeButton"
+            android:src="@drawable/pokeball"
+            android:onClick="submit4"/>
+    </LinearLayout>
+</ScrollView>

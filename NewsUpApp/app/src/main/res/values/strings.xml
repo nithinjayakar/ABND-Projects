@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NewsUp</string>
+    <string name="placeHolder">hello</string>
+    <string name="error">no data</string>
+    <string name="Search">Search</string>
+    <string name="SearchBooks">Search section</string>
+</resources>
